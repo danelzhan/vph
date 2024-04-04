@@ -13,7 +13,6 @@
     font-style: normal;
 }
 
-
 body {
     display: flex;
     min-height: 100vh;
@@ -128,7 +127,7 @@ a {
     font-weight: 700;
 }
 
-.main {
+.landing_main {
     border-top: 1px solid white;
 }
 
@@ -212,11 +211,6 @@ a {
 }
 
 /* contact page */
-
-.contact_main {
-    display: flex;
-}
-
 .contact_section {
     width: 50%;
     height: 100%;
@@ -226,6 +220,27 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: rgb(208, 208, 208);
+}
+
+/* support page */
+#support_volunteer, #support_donate, #support_sponsor {
+    display: flex;
+}
+
+#support_volunteer {
+    height: 50vh;
+}
+
+#support_donate {
+    height: 50vh;
+}
+
+#support_sponsor {
+    height: 50vh;
+}
+
+.support_element {
+    width: 50%;
 }
 
 @media screen and (max-width: 900px) {
