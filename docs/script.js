@@ -21,7 +21,7 @@ function pageScroll() {
     }
     document.onclick = function() {
         clickCount++;
-    }
+    }   
 }
 
 // buttons

@@ -296,6 +296,9 @@ a {
     width: 25%;
     overflow: hidden;
     margin-top: 1.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 
