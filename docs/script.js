@@ -21,8 +21,14 @@ function pageScroll() {
     }
     document.onclick = function() {
         clickCount++;
-    }   
+    } 
 }
+
+function camera() {
+    console.log(window.scrollY);
+}
+
+document.body.onscroll = camera;
 
 // buttons
 const registerButton = document.getElementById('volunteer_button');
